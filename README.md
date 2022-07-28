@@ -32,8 +32,10 @@
 2. Creating a Dockerfile for the python app based on the requirments defined in the repo  
 ![](./images/docker.png "The dockerfile")
 3. Building the image `docker build -t eu.gcr.io/omar-gcp-project-1/my-reload-counter:1.0  /Docker/` <br /> 
-    Note That: the image must be tagged as following ~> `[HostName registery]/[project-id]/[name]:[verison]` <br /> 
-    [HostName registery]-> specify in which region your image will be stored in [ Document ](https://cloud.google.com/container-registry/docs/pushing-and-pulling) 
+    Note That: <br />
+    The image must be tagged as following ~> `[HostName registery]/[project-id]/[name]:[verison]` <br /> 
+    [HostName registery]-> specify in which region your image will be stored in [ Document ](https://cloud.google.com/container-registry/docs/pushing-and-pulling)<br />
+    `eu.gcr.io` means it will store the image in the europe region 
 4. Authenticate your account with the gcloud tool `gcloud auth login` it will pop up a browswer page  <br /> 
    where you can login with your gcp account
 5. Make sure account has `storage.admin` premisson in order to push images to GCR.
