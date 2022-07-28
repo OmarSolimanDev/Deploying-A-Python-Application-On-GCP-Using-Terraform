@@ -20,7 +20,7 @@ variable "restricted_subnet_region" {
   type = string
 }
 
-
+ 
 variable "managed_subnet_CIDR" {
   type = string
 }
