@@ -50,11 +50,11 @@
     pull the images from gcr, the service accout is attached to the node pool which is attached <br />
     to the gke cluster 
 ![](./images/gke.png "The gke")
-10. Creating bastion host with a startup script `startup_script.sh` to communicate with Master node <br />
+10. Creating bastion host to communicate with Master node with a startup script `startup_script.sh`  <br />
     Note That: <br /> 
     bastion host is created with no puplic ip using terraform and the startup script installs <br />
     kubectl tool which is used to communicate with Master node, moreover we created a service<br />
-    account with container admin premission to have full access to gke cluster and attached<br />
+    account with `container.admin` premission to have full access to gke cluster and attached<br />
     it to the bastion host while creating the bastion host from the terraform code
 11. Now copy the kubernetes yaml files found in templates folder from your local machine to your <br />
     bastion host, type in the terminal: <br />
