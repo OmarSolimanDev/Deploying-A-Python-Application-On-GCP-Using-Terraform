@@ -38,7 +38,7 @@
     `eu.gcr.io` means it will store the image in the europe region 
 4. Authenticate your account with the gcloud tool `gcloud auth login` it will pop up a browswer page  <br /> 
    where you can login with your gcp account
-5. Make sure account has `storage.admin` premisson in order to push images to GCR.
+5. Make sure the account has `storage.admin` premisson in order to push images to GCR.
 6. Configure Docker to authenticate to GCR from your local machine [Setup](https://cloud.google.com/container-registry/docs/advanced-authentication)
 7. Pushing the image to GCR `docker push eu.gcr.io/omar-gcp-project-1/my-reload-counter:1.0`
 ![](./images/gcr.png "The gcr")
