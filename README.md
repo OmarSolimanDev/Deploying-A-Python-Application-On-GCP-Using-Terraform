@@ -75,4 +75,4 @@
 
 ## Author
 
-[Omar Kamal ](https://www.linkedin.com/in/omar-soliman-617188208/)[omar@localhost helm]$ 
+[Omar Kamal ](https://www.linkedin.com/in/omar-soliman-617188208/)
