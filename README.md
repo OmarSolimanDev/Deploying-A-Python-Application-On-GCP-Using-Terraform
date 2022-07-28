@@ -18,8 +18,8 @@
 
 ## Building Network infrastructure using terraform 
 
-1. Created a vpc in europe region
-2. Created two subnets (managed & restricted)
+1. Created a vpc 
+2. Created two subnets (managed & restricted) in the europe region
 3. Created a firewall allowing only The IAP range to access 
 4. Created a nat-gateway in order that my resources that will be created later <br />
    can access the internet safely<br /> 
