@@ -48,7 +48,7 @@
    Note That: <br /> 
     we created a service account with `storage.admin` premisson in order that working nodes can <br />
     pull the images from gcr, the service accout is attached to the node pool which is attached <br />
-    to the gke cluster 
+    to the gke cluster  <br />
 ![](./images/gke.png "The gke")
 10. Creating bastion host to communicate with Master node with a startup script `startup_script.sh`  <br />
     Note That: <br /> 
